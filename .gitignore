@@ -1,0 +1,27 @@
+# large data / checkpoints
+*.pkl
+*.pt
+*.pth
+*.tar
+*.zip
+*.mp4
+*.avi
+*.jpg
+*.png
+
+# outputs
+training-runs*/
+submissions*/
+datasets*/
+logs/
+wandb/
+__pycache__/
+*.pyc
+
+# system
+.DS_Store
+
+# local external folders
+CelebV-HQ/
+stylegan2-ada-pytorch/
+tools/
